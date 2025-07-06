@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vidhita Kirtani | Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body class="dark">
+
+  <!-- Header -->
+  <header class="navbar">
+    <button id="menu-toggle" class="hamburger">&#9776;</button>
+     <div class="navbar-title">Created to Create</div>
+    <div class="right-buttons">
+        <label class="switch">
+            <input type="checkbox" id="theme-toggle">
+            <span class="slider round"></span>
+        </label>
+        <div class="theme-picker">
+            <button id="palette-btn">
+                <img src="images/color-palette2.png" alt="Color Palette" class="palette-icon">
+            </button>
+            <div class="color-options">
+                <button class="color-circle" data-color="#00b894"></button>
+                <button class="color-circle" data-color="#e84393"></button>
+                <button class="color-circle" data-color="#0984e3"></button>
+                <button class="color-circle" data-color="#fdcb6e"></button>
+                <button class="color-circle" data-color="#6c5ce7"></button>
+            </div>
+        </div>
+    </div>
+
+  </header>
+
+  <!-- Sidebar -->
+  <nav id="sidebar" class="sidebar">
+  <button class="close-btn" id="close-sidebar">&times;</button>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div id="overlay"></div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+  <div class="hero-content">
+    <!-- LEFT COLUMN -->
+    <div class="hero-left">
+      <img src="images/me.jpg" alt="Vidhita" class="my-photo" />
+      <h1>Hello, I’m Vidhita!</h1>
+      <a href="about.html" class="btn more-btn">More About Me</a>
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="hero-right">
+      <h2 class="skills-title">Skills Overview</h2>
+
+      <div class="skill">
+        <h3>HTML</h3>
+        <div class="skill-bar">
+          <div class="fill" data-width="90%"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <h3>CSS</h3>
+        <div class="skill-bar">
+          <div class="fill" data-width="80%"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <h3>JavaScript</h3>
+        <div class="skill-bar">
+          <div class="fill" data-width="70%"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Services Preview -->
+  <section class="services-preview">
+    <h1 class="section-title" align="center">My Services</h1>
+    <div class="service-card">
+      <div class="card" data-aos="zoom-in">
+        <img src="des.jpg" alt="Web Dev" height="300" width="200"/>
+        <div class="overlay-card">
+          <h3>Web Development</h3>
+          <p>Modern, responsive websites that engage users.</p>
+        </div>
+      </div>
+      <div class="card" data-aos="zoom-in">
+        <img src="web.jpg" alt="Android Dev"/>
+        <div class="overlay-card">
+          <h3>Android Development</h3>
+          <p>Beautiful Android apps tailored to your needs.</p>
+        </div>
+      </div>
+      <div class="card" data-aos="zoom-in">
+        <img src="html.jpg" alt="Design"/>
+        <div class="overlay-card">
+          <h3>Designing</h3>
+          <p>Professional UI/UX and graphic design services.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <h2 class="section-title" align="center">Testimonials</h2>
+    <div class="swiper" align="center">
+      <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <p>"Absolutely loved collaborating with Vidhita! The visuals they created matched my aesthetic perfectly and made my Instagram feed pop. My followers keep asking who’s behind my stunning new look. So grateful for their talent!"</p>
+          <strong>— @StyleByNina (Instagram Fashion Influencer)</strong>
+         </div>
+        <div class="swiper-slide">
+          <p>"Vidhita helped us turn complex ideas into clean, user-friendly designs. Their work brought our app prototype to life and impressed our investors. Professional, friendly, and easy to communicate with throughout the process."</p>
+          <strong>— Rajesh Patel, Founder & CEO, HealthTech Now</strong>
+        </div>
+        <div class="swiper-slide">
+          <p>"I can’t thank Vidhita enough for revamping our website. Our online bookings have doubled since the redesign, and our customers love the fresh, modern look. Super talented and a joy to work with!"</p>
+          <strong>— Linda Cooper, Owner, Blissful Spa & Wellness</strong>
+        </div>
+        <div class="swiper-slide">
+          <p>"Professional, timely, and creative work."</p>
+          <strong>- Tantrata Solutions</strong>
+        </div>
+         <div class="swiper-slide">
+          <p>"Vidhita delivered a fantastic website. Highly recommended!"</p>
+          <strong>- Vionsyss</strong>
+        </div>
+        <div class="swiper-slide">
+          <p>"“As a content creator, visuals are everything—and Vidhita totally nailed it. The thumbnails and channel art they designed increased my video click-through rate by over 30%. I’m definitely coming back for more projects!”"</p>
+          <strong>— Jake Turner, YouTube Tech Reviewer (@TechWithJake)</strong>
+        </div>
+        <div class="swiper-slide">
+          <p>"Working with Vidhita was a game-changer for our brand. Their attention to detail, creativity, and commitment to deadlines exceeded our expectations. The designs delivered helped us boost our online engagement significantly. Highly recommended"</p>
+          <strong>— Sophia Martinez, Creative Director, BrightWave Media</strong>
+        </div>
+      </div><br><br>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <!-- Contact Shortform -->
+  <section class="contact-short" id="contact" align="center">
+    <h2 class="section-title" >Let's Connect!</h2>
+    <p>Ready to bring your vision to life? Get in touch!</p><br>
+    <a href="contact.html" class="btn">Contact Me</a>
+  </section>
+
+  <!-- Footer -->
+   <footer class="foot">
+    <p>© 2025 Vidhita Portfolio</p>
+    <div class="socials">
+      <a href="https://www.facebook.com/share/1S52AWUhYr/?mibextid=wwXIfr"><i class="fab fa-facebook"></i> Facebook</a>
+      <a href="https://www.instagram.com/vk_desi_arts?igsh=MTZxMDNsM2liNTk5bg=="><i class="fab fa-instagram"></i> Instagram</a>
+      <a href="https://www.linkedin.com/in/vidhita-kirtani-222977332/"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+  <script>
+  document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".fill").forEach(el => {
+    el.style.width = el.dataset.width;
+    });
+  });
+  </script>
+</body>
+</html>
